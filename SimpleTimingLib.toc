@@ -1,0 +1,7 @@
+## Interface: 60200
+## Title: Simple Timing Lib
+## Version: v60200-0.0.1 
+## Author: Almightree
+## Notes: A timing library.
+
+SimpleTimingLib.lua
