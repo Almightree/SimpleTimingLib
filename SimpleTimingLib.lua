@@ -20,7 +20,7 @@ end
 function SimpleTimingLib_Unschedule(func, ...)
 	for i = #tasks, 1, -1 do
 		local val = tasks[i]
-		if val.func == true
+		if val.func == true then
 			local matches = true
 			for i = 1, select("#", ...) do
 				if select(i, ...) ~= val[i] then
